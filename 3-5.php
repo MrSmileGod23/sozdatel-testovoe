@@ -1,6 +1,6 @@
 <?php
 
-function angleClock($hour,$minute)
+function angleClock(int $hour,int $minute)
 {
     /* 360 градусов проходит минутная стрелка за 60 минут
      *  360/60 = градус за минуту
